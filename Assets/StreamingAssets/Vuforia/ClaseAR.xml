@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="20260209" size="1.500000 1.500000" />
+    <ImageTarget name="2025-04-1400" size="0.500000 0.700000" />
+    <ImageTarget name="20250810" size="0.500000 0.372747" />
+    <ImageTarget name="20250826" size="0.500000 0.377015" />
+    <ImageTarget name="img20250302_231608531" size="0.500000 0.736866" />
   </Tracking>
 </QCARConfig>

@@ -1,10 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CambiaColor : MonoBehaviour
 {
     public GameObject Modelo1;
-    public Color color;
-    public Material materialColor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,7 +17,13 @@ public class CambiaColor : MonoBehaviour
     }
     public void ChangeColor_Chicken()
     {
-        Modelo1.GetComponent<Renderer>().material.color = color;
-        materialColor.color = color;
+
+        Color randomColor = new Color(
+            Random.Range(0f, 1f),
+            Random.Range(0f, 1f), 
+            Random.Range(0f, 1f), 
+            1f                   
+        );
+        Modelo1.GetComponent<Renderer>().material.color = randomColor;
     }
 }
